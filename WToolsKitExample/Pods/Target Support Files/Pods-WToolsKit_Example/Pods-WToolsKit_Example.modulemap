@@ -1,0 +1,6 @@
+framework module Pods_WToolsKit_Example {
+  umbrella header "Pods-WToolsKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

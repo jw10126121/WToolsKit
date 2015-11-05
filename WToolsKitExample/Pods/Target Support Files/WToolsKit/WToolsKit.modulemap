@@ -1,0 +1,6 @@
+framework module WToolsKit {
+  umbrella header "WToolsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

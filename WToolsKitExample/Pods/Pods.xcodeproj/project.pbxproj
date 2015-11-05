@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02353F4424EE49E274F7D01F152BDD17 /* UIImage+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C1DECFCEB1CE731DF8836C2AEF50FA /* UIImage+WTool.m */; };
+		03B15E637A1051E4D1D274E7979329DF /* UIScrollView+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 688DB58C7BDA83AB139199D9AA93261C /* UIScrollView+WTool.m */; };
+		0501A5A595F9A80BB61822C3C16F4A12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		10A3352D28774F4BA4409905897F496E /* WJsonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9136A575377A57856D79573682142FAC /* WJsonTool.m */; };
+		10F5932D16A7F0FA336C0BDC4F272AB4 /* UITableViewCell+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D6ACECF6935F415D10DD6244FA5F78 /* UITableViewCell+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13446D2D0DD4F0A5EB3DCFFAF2136BB7 /* NSString+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E2895ADF94745BCC64E1AD3A7FC7B /* NSString+WTool.m */; };
+		141FEE82B76ADB104006AEBDD4A7C334 /* UIColor+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 447B7E3366F94B39F21DE580E6721C78 /* UIColor+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC5D4A3B823EF5B6EFFB7E1F570C1E5 /* NSArray+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 63032221AE9F15B6F03564C7D790578C /* NSArray+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC9155DCF04151FEBF91573751EF056 /* Pods-WToolsKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A0A64A562076474443ABAD5111A11B /* Pods-WToolsKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35E65CD04B00C9C44A4CA98956C4552A /* NSNull+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83442A9873FAF7E7581FA9D9DE8183 /* NSNull+WTool.m */; };
+		3F82704AFFC52F3782FA6393007C0712 /* UIActionSheet+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4B682B88B7684C7D5FB10DF85F0C49 /* UIActionSheet+WTool.m */; };
+		457357B30CC06BD51991CF1110B313BB /* UIControl+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C031AA2F03E8937DF8E67B6060416D /* UIControl+WTool.m */; };
+		48939E6960E22487BE913CA2F1502F54 /* WToolsKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95459ADF444172C990C3323EE63D8E40 /* WToolsKit.bundle */; };
+		4ECBB96DDC28DFEF5E66751CC7535ADB /* NSDate+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EFB47BD04178356A21B6AA55F7275B /* NSDate+WTool.m */; };
+		54023CC8524B4F8A46384BEB8E773412 /* UITableView+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE8BEBB1366715E9AFA8B0B77B661FF /* UITableView+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575DC50AEF9C78D304382A3696DB10E8 /* Pods-WToolsKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531C22A0F42E9E3EAC16159995BC10E /* Pods-WToolsKit_Tests-dummy.m */; };
+		6184240E121D79B686EFB666A15B6C1B /* UIControl+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D9FA5DEDE3EFAC3598B2C3985BC739E4 /* UIControl+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63DB449A17E0EED5BC14DC7C4A1D4BF0 /* Pods-WToolsKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC60A596A64147AFAD6573D7DE1A3C2 /* Pods-WToolsKit_Example-dummy.m */; };
+		6429FCD1577EFDCF62191B2BA06C5825 /* UIAlertView+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D32C04EA2A442AD3C0777E1CCC2EBC8 /* UIAlertView+WTool.m */; };
+		65BE04052F024482DE78527F71CA4352 /* UIActionSheet+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8F202F15437B6B9C0B1B3D539FB7D4 /* UIActionSheet+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69D72319C62021A9FCDA871D95D5A275 /* UITableView+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 44029BC43A185AAAD51BD93B0762F481 /* UITableView+WTool.m */; };
+		6DACDBBA8121FEE5ECC174ED8BB18BA7 /* UIButton+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B701C720EA87EB783EE9560D1F14466 /* UIButton+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		725FCDDC5F5D4951FDF4F03234A7ED35 /* NSArray+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 94677871EC54341A4A893A25054EABF4 /* NSArray+WTool.m */; };
+		7621C4B35CEA640A55F07B2538E69BA6 /* WTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D469685F57519B8DFC09D7FAC9BFBD /* WTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76CF80312A711C046C2E054BB17E2211 /* JwSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = D04E395B86CE04BC781E97BBD80A159B /* JwSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AFFE3B415F270D271FD2EA87438F922 /* UIScrollView+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5A0A74AD1E8497E66D1A70CD87258A /* UIScrollView+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844E0EEE87854779148D948457873379 /* UIAlertView+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 100B190C8F5F8124BD82ADAC0414CDD9 /* UIAlertView+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84FA57DEB14C88E8B5DF5F47BE031AF9 /* JwDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF71B956166686D68A79F83C18EA0E4 /* JwDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D8906EBEF78867B479BF42E7EDAE29 /* NSNull+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D14D7C1CFE7F2A3D3015B27FFBB5A503 /* NSNull+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		970D9B187B620E54A058392E0A2C99E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		99B1719337FDE4CC6EF3C7F438EC3447 /* UIViewController+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C4739D7792564DABAAB758C404492 /* UIViewController+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BBD4218E251F33E396166F20FD1A348 /* UIButton+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4341FC08570528BE4606051AB9163C95 /* UIButton+WTool.m */; };
+		A03EE8822452D7A99CE74C167C5B7682 /* Pods-WToolsKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3312DEF7EA4A86338121FE563B9F4C23 /* Pods-WToolsKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A44F570DDB6EF35B206D624322F8BD3F /* UIImage+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6A849973A890ACAF8540123C929745 /* UIImage+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D5F9584E1B291260E1FEDAEA685F67 /* NSMutableAttributedString+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C00DC7E0FB907CCF1C11749CC308EFA7 /* NSMutableAttributedString+WTool.m */; };
+		BE74DC5961FCC70F84AB004F00C44D55 /* UIColor+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EC2AEDE3BE265E7476C6E13AEEA731 /* UIColor+WTool.m */; };
+		C872782EC0AACFD90DD3B373682D100F /* NSDate+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 54FB62B902959F64E357D6247B67BA83 /* NSDate+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE0D8ED9BD1A07DEB22397CD4EE17EFE /* WToolsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F512C423002F7F5F2FE6F83A14B02C /* WToolsKit-dummy.m */; };
+		D0DB1680979D7D337950C73E14CBDFD2 /* NSMutableAttributedString+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DD8422567CF058EA7C0984803ACC3C /* NSMutableAttributedString+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D102CEE4F80E3254781B3DE65F9647FB /* JWTools.h in Headers */ = {isa = PBXBuildFile; fileRef = FB784D43FCF991C36DCF0E341D617AEC /* JWTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D14C5EB3C01F190BA68D6935BBC27BC2 /* WFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E352668CB3018FCBBF406C8050B6F11F /* WFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6321A66C6327FEA91EB075744308504 /* UIView+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC17CB8913844C755AC18C665F412F2 /* UIView+WTool.m */; };
+		D8B0AA8EDCCA35CA0DA5A70110303C2A /* UIView+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E16D7843A67080E4012B6C361D8CD5 /* UIView+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDE6F2A145E67C35DA4F182E653AAD42 /* WToolsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5338A4093063D6C22131166CD963144 /* WToolsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E05EFECFDECAEB227641C8D0F9D723CA /* WFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5D441152169245B081E33C0941D4EE /* WFileManager.m */; };
+		E2BE6F6E95C507609B8B549252CAC8DD /* UITableViewCell+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD3D60A0106F6A5B64C17670A4E7263 /* UITableViewCell+WTool.m */; };
+		F5B75D1DDA9DC12EDBAAA922040C41A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F7697CAD22709542652E893EB4B6838E /* NSString+WTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8EF0BFB5BE9B77CCDDC82045345511 /* NSString+WTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F93FF4D820E0B28848ADCA9E0838F476 /* JWTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C91829DBF19B11B61E574050264420C3 /* JWTools.m */; };
+		FB19BFE64EB5BD20FC93A1423343777C /* UIViewController+WTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EF55598565DF6464D0E3F42A3666F5 /* UIViewController+WTool.m */; };
+		FB7102FFE750AF9455E7E8ADDEC6823C /* WJsonTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6A3471BD56E0E500FF7C8B03A0F535 /* WJsonTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		089F752D77EB8BEA23081B29D6D604F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6243726C606DE2B4A226548D3B6ABE4A;
+			remoteInfo = WToolsKit;
+		};
+		E54BA296097DBD4990F91DE57C30D898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6243726C606DE2B4A226548D3B6ABE4A;
+			remoteInfo = WToolsKit;
+		};
+		E9156A7223A045D46CF94E764A9FF2FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 812267C80C4A21DE894C7DCCB1DDA64A;
+			remoteInfo = "WToolsKit-WToolsKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E8377327ABF1DDBD7DE7BA93D2B4C2 /* WToolsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WToolsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0100E5024FE3C3543BD7D6962213AA31 /* Pods-WToolsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WToolsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		07A0A64A562076474443ABAD5111A11B /* Pods-WToolsKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WToolsKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0BE2138F82990BA796165D581CF49F37 /* Pods-WToolsKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WToolsKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		100B190C8F5F8124BD82ADAC0414CDD9 /* UIAlertView+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+WTool.h"; sourceTree = "<group>"; };
+		13E7F3698279FF9811733862D93EA839 /* Pods-WToolsKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WToolsKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1C5A0A74AD1E8497E66D1A70CD87258A /* UIScrollView+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WTool.h"; sourceTree = "<group>"; };
+		25EF55598565DF6464D0E3F42A3666F5 /* UIViewController+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WTool.m"; sourceTree = "<group>"; };
+		27EFB47BD04178356A21B6AA55F7275B /* NSDate+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WTool.m"; sourceTree = "<group>"; };
+		28FCC7BF765D440BE490C7ED992A6689 /* Pods-WToolsKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WToolsKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B701C720EA87EB783EE9560D1F14466 /* UIButton+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+WTool.h"; sourceTree = "<group>"; };
+		3312DEF7EA4A86338121FE563B9F4C23 /* Pods-WToolsKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WToolsKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		35779678BD8B30C06CA5E8A1A65280EE /* Pods-WToolsKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WToolsKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		390FBCEB843BE7820766F8879B79FB57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8F202F15437B6B9C0B1B3D539FB7D4 /* UIActionSheet+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+WTool.h"; sourceTree = "<group>"; };
+		3D32C04EA2A442AD3C0777E1CCC2EBC8 /* UIAlertView+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+WTool.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4341FC08570528BE4606051AB9163C95 /* UIButton+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WTool.m"; sourceTree = "<group>"; };
+		44029BC43A185AAAD51BD93B0762F481 /* UITableView+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WTool.m"; sourceTree = "<group>"; };
+		447B7E3366F94B39F21DE580E6721C78 /* UIColor+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+WTool.h"; sourceTree = "<group>"; };
+		48F512C423002F7F5F2FE6F83A14B02C /* WToolsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WToolsKit-dummy.m"; sourceTree = "<group>"; };
+		493C4739D7792564DABAAB758C404492 /* UIViewController+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WTool.h"; sourceTree = "<group>"; };
+		4AE8BEBB1366715E9AFA8B0B77B661FF /* UITableView+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+WTool.h"; sourceTree = "<group>"; };
+		54FB62B902959F64E357D6247B67BA83 /* NSDate+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+WTool.h"; sourceTree = "<group>"; };
+		5A6A3471BD56E0E500FF7C8B03A0F535 /* WJsonTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJsonTool.h; sourceTree = "<group>"; };
+		5A8EF0BFB5BE9B77CCDDC82045345511 /* NSString+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+WTool.h"; sourceTree = "<group>"; };
+		5D5D441152169245B081E33C0941D4EE /* WFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WFileManager.m; sourceTree = "<group>"; };
+		60EC2AEDE3BE265E7476C6E13AEEA731 /* UIColor+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WTool.m"; sourceTree = "<group>"; };
+		63032221AE9F15B6F03564C7D790578C /* NSArray+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+WTool.h"; sourceTree = "<group>"; };
+		631AC205656D928C24B91F30DA273FB3 /* Pods_WToolsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WToolsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66154717A27CE6DF1B396A14B1C648E0 /* Pods-WToolsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WToolsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		688DB58C7BDA83AB139199D9AA93261C /* UIScrollView+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WTool.m"; sourceTree = "<group>"; };
+		6C6F20C6FF1F2F0EB1FF3BCE7C7581B2 /* WToolsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WToolsKit.xcconfig; sourceTree = "<group>"; };
+		7531C22A0F42E9E3EAC16159995BC10E /* Pods-WToolsKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WToolsKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		75CE0C0F829B6F47504ACE6D36E48FA3 /* Pods_WToolsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WToolsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		843E2895ADF94745BCC64E1AD3A7FC7B /* NSString+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+WTool.m"; sourceTree = "<group>"; };
+		87D469685F57519B8DFC09D7FAC9BFBD /* WTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTools.h; sourceTree = "<group>"; };
+		8A0F45C0813E86AB184F2DC90C29F09B /* Pods-WToolsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WToolsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9136A575377A57856D79573682142FAC /* WJsonTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJsonTool.m; sourceTree = "<group>"; };
+		94677871EC54341A4A893A25054EABF4 /* NSArray+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WTool.m"; sourceTree = "<group>"; };
+		952F56C2FEC18DD43BA5F98CFD3A7247 /* Pods-WToolsKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WToolsKit_Example-resources.sh"; sourceTree = "<group>"; };
+		95459ADF444172C990C3323EE63D8E40 /* WToolsKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WToolsKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DD8422567CF058EA7C0984803ACC3C /* NSMutableAttributedString+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+WTool.h"; sourceTree = "<group>"; };
+		98E16D7843A67080E4012B6C361D8CD5 /* UIView+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+WTool.h"; sourceTree = "<group>"; };
+		9AE1134861FE8081CA120DFDEBC83EBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC60A596A64147AFAD6573D7DE1A3C2 /* Pods-WToolsKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WToolsKit_Example-dummy.m"; sourceTree = "<group>"; };
+		9E6A849973A890ACAF8540123C929745 /* UIImage+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+WTool.h"; sourceTree = "<group>"; };
+		A5338A4093063D6C22131166CD963144 /* WToolsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WToolsKit-umbrella.h"; sourceTree = "<group>"; };
+		AC4713839D11FD7D9A669EB5C1A9B391 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C161EBEBD421AE2E3B87DE1AAB86DC /* WToolsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WToolsKit.modulemap; sourceTree = "<group>"; };
+		B3C1DECFCEB1CE731DF8836C2AEF50FA /* UIImage+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WTool.m"; sourceTree = "<group>"; };
+		B4D6ACECF6935F415D10DD6244FA5F78 /* UITableViewCell+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+WTool.h"; sourceTree = "<group>"; };
+		B56E74C780C69C4CE2BFDB952C0EB1F2 /* WToolsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WToolsKit-prefix.pch"; sourceTree = "<group>"; };
+		B7AB64867471D631D400BE855BE038C8 /* Pods-WToolsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WToolsKit_Example.modulemap"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAD3D60A0106F6A5B64C17670A4E7263 /* UITableViewCell+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+WTool.m"; sourceTree = "<group>"; };
+		C00DC7E0FB907CCF1C11749CC308EFA7 /* NSMutableAttributedString+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+WTool.m"; sourceTree = "<group>"; };
+		C1FADCDD6B5743461514A36CF5717B07 /* Pods-WToolsKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WToolsKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C91829DBF19B11B61E574050264420C3 /* JWTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JWTools.m; sourceTree = "<group>"; };
+		CE83442A9873FAF7E7581FA9D9DE8183 /* NSNull+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNull+WTool.m"; sourceTree = "<group>"; };
+		D01954E2176B8E83A6C633845E36BF9C /* Pods-WToolsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WToolsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D04E395B86CE04BC781E97BBD80A159B /* JwSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JwSingleton.h; sourceTree = "<group>"; };
+		D14D7C1CFE7F2A3D3015B27FFBB5A503 /* NSNull+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNull+WTool.h"; sourceTree = "<group>"; };
+		D9FA5DEDE3EFAC3598B2C3985BC739E4 /* UIControl+WTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+WTool.h"; sourceTree = "<group>"; };
+		DD2A1DEDC17B2F94A24DEEF2F3CCB45B /* Pods-WToolsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WToolsKit_Tests.modulemap"; sourceTree = "<group>"; };
+		E0C031AA2F03E8937DF8E67B6060416D /* UIControl+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+WTool.m"; sourceTree = "<group>"; };
+		E352668CB3018FCBBF406C8050B6F11F /* WFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WFileManager.h; sourceTree = "<group>"; };
+		E3E6DACF973ACF73209B77199C11570A /* Pods-WToolsKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WToolsKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EAF71B956166686D68A79F83C18EA0E4 /* JwDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JwDefine.h; sourceTree = "<group>"; };
+		EF4B682B88B7684C7D5FB10DF85F0C49 /* UIActionSheet+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+WTool.m"; sourceTree = "<group>"; };
+		F9F0DCC60D4E9F8EEADB1A0FB0DD2D49 /* Pods-WToolsKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WToolsKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAC17CB8913844C755AC18C665F412F2 /* UIView+WTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+WTool.m"; sourceTree = "<group>"; };
+		FB784D43FCF991C36DCF0E341D617AEC /* JWTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JWTools.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EFEF932DC57D3F69D684E9C34D5EE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970D9B187B620E54A058392E0A2C99E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63082CEC5137180C13935344D1E89FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B75D1DDA9DC12EDBAAA922040C41A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FE1D39459D183C3185DB7087CC8405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0501A5A595F9A80BB61822C3C16F4A12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CD84F305981A98F8ACE7E87B5DD65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FE624EA2E10FAD380EE4F4E1B39CA2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A22493EDC553A6BF4FCCF1C74EE5EC3B /* Pods-WToolsKit_Example */,
+				A5EEDCBFBC4B826FFA8CAB04B692BF0A /* Pods-WToolsKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1867395A303FC17C9A309D342305C2BD /* WToolsKit */ = {
+			isa = PBXGroup;
+			children = (
+				ACFE87F3FBD31C60DB71DE7E66FEF8E3 /* Classes */,
+			);
+			path = WToolsKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				CC3BA2E8CE2EA90E9891A354EE23B957 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F89EA6B8E4BB6E0B0124420690500683 /* Products */,
+				00FE624EA2E10FAD380EE4F4E1B39CA2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F5184D84A4A794C4C318251CBB2BD37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				390FBCEB843BE7820766F8879B79FB57 /* Info.plist */,
+				B3C161EBEBD421AE2E3B87DE1AAB86DC /* WToolsKit.modulemap */,
+				6C6F20C6FF1F2F0EB1FF3BCE7C7581B2 /* WToolsKit.xcconfig */,
+				48F512C423002F7F5F2FE6F83A14B02C /* WToolsKit-dummy.m */,
+				B56E74C780C69C4CE2BFDB952C0EB1F2 /* WToolsKit-prefix.pch */,
+				A5338A4093063D6C22131166CD963144 /* WToolsKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "WToolsKitExample/Pods/Target Support Files/WToolsKit";
+			sourceTree = "<group>";
+		};
+		A22493EDC553A6BF4FCCF1C74EE5EC3B /* Pods-WToolsKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9AE1134861FE8081CA120DFDEBC83EBA /* Info.plist */,
+				B7AB64867471D631D400BE855BE038C8 /* Pods-WToolsKit_Example.modulemap */,
+				C1FADCDD6B5743461514A36CF5717B07 /* Pods-WToolsKit_Example-acknowledgements.markdown */,
+				28FCC7BF765D440BE490C7ED992A6689 /* Pods-WToolsKit_Example-acknowledgements.plist */,
+				9CC60A596A64147AFAD6573D7DE1A3C2 /* Pods-WToolsKit_Example-dummy.m */,
+				13E7F3698279FF9811733862D93EA839 /* Pods-WToolsKit_Example-frameworks.sh */,
+				952F56C2FEC18DD43BA5F98CFD3A7247 /* Pods-WToolsKit_Example-resources.sh */,
+				3312DEF7EA4A86338121FE563B9F4C23 /* Pods-WToolsKit_Example-umbrella.h */,
+				D01954E2176B8E83A6C633845E36BF9C /* Pods-WToolsKit_Example.debug.xcconfig */,
+				66154717A27CE6DF1B396A14B1C648E0 /* Pods-WToolsKit_Example.release.xcconfig */,
+			);
+			name = "Pods-WToolsKit_Example";
+			path = "Target Support Files/Pods-WToolsKit_Example";
+			sourceTree = "<group>";
+		};
+		A5EEDCBFBC4B826FFA8CAB04B692BF0A /* Pods-WToolsKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4713839D11FD7D9A669EB5C1A9B391 /* Info.plist */,
+				DD2A1DEDC17B2F94A24DEEF2F3CCB45B /* Pods-WToolsKit_Tests.modulemap */,
+				F9F0DCC60D4E9F8EEADB1A0FB0DD2D49 /* Pods-WToolsKit_Tests-acknowledgements.markdown */,
+				35779678BD8B30C06CA5E8A1A65280EE /* Pods-WToolsKit_Tests-acknowledgements.plist */,
+				7531C22A0F42E9E3EAC16159995BC10E /* Pods-WToolsKit_Tests-dummy.m */,
+				E3E6DACF973ACF73209B77199C11570A /* Pods-WToolsKit_Tests-frameworks.sh */,
+				0BE2138F82990BA796165D581CF49F37 /* Pods-WToolsKit_Tests-resources.sh */,
+				07A0A64A562076474443ABAD5111A11B /* Pods-WToolsKit_Tests-umbrella.h */,
+				0100E5024FE3C3543BD7D6962213AA31 /* Pods-WToolsKit_Tests.debug.xcconfig */,
+				8A0F45C0813E86AB184F2DC90C29F09B /* Pods-WToolsKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-WToolsKit_Tests";
+			path = "Target Support Files/Pods-WToolsKit_Tests";
+			sourceTree = "<group>";
+		};
+		ACFE87F3FBD31C60DB71DE7E66FEF8E3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAF71B956166686D68A79F83C18EA0E4 /* JwDefine.h */,
+				D04E395B86CE04BC781E97BBD80A159B /* JwSingleton.h */,
+				FB784D43FCF991C36DCF0E341D617AEC /* JWTools.h */,
+				C91829DBF19B11B61E574050264420C3 /* JWTools.m */,
+				63032221AE9F15B6F03564C7D790578C /* NSArray+WTool.h */,
+				94677871EC54341A4A893A25054EABF4 /* NSArray+WTool.m */,
+				54FB62B902959F64E357D6247B67BA83 /* NSDate+WTool.h */,
+				27EFB47BD04178356A21B6AA55F7275B /* NSDate+WTool.m */,
+				97DD8422567CF058EA7C0984803ACC3C /* NSMutableAttributedString+WTool.h */,
+				C00DC7E0FB907CCF1C11749CC308EFA7 /* NSMutableAttributedString+WTool.m */,
+				D14D7C1CFE7F2A3D3015B27FFBB5A503 /* NSNull+WTool.h */,
+				CE83442A9873FAF7E7581FA9D9DE8183 /* NSNull+WTool.m */,
+				5A8EF0BFB5BE9B77CCDDC82045345511 /* NSString+WTool.h */,
+				843E2895ADF94745BCC64E1AD3A7FC7B /* NSString+WTool.m */,
+				3B8F202F15437B6B9C0B1B3D539FB7D4 /* UIActionSheet+WTool.h */,
+				EF4B682B88B7684C7D5FB10DF85F0C49 /* UIActionSheet+WTool.m */,
+				100B190C8F5F8124BD82ADAC0414CDD9 /* UIAlertView+WTool.h */,
+				3D32C04EA2A442AD3C0777E1CCC2EBC8 /* UIAlertView+WTool.m */,
+				2B701C720EA87EB783EE9560D1F14466 /* UIButton+WTool.h */,
+				4341FC08570528BE4606051AB9163C95 /* UIButton+WTool.m */,
+				447B7E3366F94B39F21DE580E6721C78 /* UIColor+WTool.h */,
+				60EC2AEDE3BE265E7476C6E13AEEA731 /* UIColor+WTool.m */,
+				D9FA5DEDE3EFAC3598B2C3985BC739E4 /* UIControl+WTool.h */,
+				E0C031AA2F03E8937DF8E67B6060416D /* UIControl+WTool.m */,
+				9E6A849973A890ACAF8540123C929745 /* UIImage+WTool.h */,
+				B3C1DECFCEB1CE731DF8836C2AEF50FA /* UIImage+WTool.m */,
+				1C5A0A74AD1E8497E66D1A70CD87258A /* UIScrollView+WTool.h */,
+				688DB58C7BDA83AB139199D9AA93261C /* UIScrollView+WTool.m */,
+				4AE8BEBB1366715E9AFA8B0B77B661FF /* UITableView+WTool.h */,
+				44029BC43A185AAAD51BD93B0762F481 /* UITableView+WTool.m */,
+				B4D6ACECF6935F415D10DD6244FA5F78 /* UITableViewCell+WTool.h */,
+				BAD3D60A0106F6A5B64C17670A4E7263 /* UITableViewCell+WTool.m */,
+				98E16D7843A67080E4012B6C361D8CD5 /* UIView+WTool.h */,
+				FAC17CB8913844C755AC18C665F412F2 /* UIView+WTool.m */,
+				493C4739D7792564DABAAB758C404492 /* UIViewController+WTool.h */,
+				25EF55598565DF6464D0E3F42A3666F5 /* UIViewController+WTool.m */,
+				E352668CB3018FCBBF406C8050B6F11F /* WFileManager.h */,
+				5D5D441152169245B081E33C0941D4EE /* WFileManager.m */,
+				5A6A3471BD56E0E500FF7C8B03A0F535 /* WJsonTool.h */,
+				9136A575377A57856D79573682142FAC /* WJsonTool.m */,
+				87D469685F57519B8DFC09D7FAC9BFBD /* WTools.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B0DD4FC769CA3CDAB629ABA88B3A0BFA /* WToolsKit */ = {
+			isa = PBXGroup;
+			children = (
+				8F5184D84A4A794C4C318251CBB2BD37 /* Support Files */,
+				1867395A303FC17C9A309D342305C2BD /* WToolsKit */,
+			);
+			name = WToolsKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC3BA2E8CE2EA90E9891A354EE23B957 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0DD4FC769CA3CDAB629ABA88B3A0BFA /* WToolsKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F89EA6B8E4BB6E0B0124420690500683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631AC205656D928C24B91F30DA273FB3 /* Pods_WToolsKit_Example.framework */,
+				75CE0C0F829B6F47504ACE6D36E48FA3 /* Pods_WToolsKit_Tests.framework */,
+				95459ADF444172C990C3323EE63D8E40 /* WToolsKit.bundle */,
+				00E8377327ABF1DDBD7DE7BA93D2B4C2 /* WToolsKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F7ADA9B0C3E744C8D3AAA431032840F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FA57DEB14C88E8B5DF5F47BE031AF9 /* JwDefine.h in Headers */,
+				76CF80312A711C046C2E054BB17E2211 /* JwSingleton.h in Headers */,
+				D102CEE4F80E3254781B3DE65F9647FB /* JWTools.h in Headers */,
+				1BC5D4A3B823EF5B6EFFB7E1F570C1E5 /* NSArray+WTool.h in Headers */,
+				C872782EC0AACFD90DD3B373682D100F /* NSDate+WTool.h in Headers */,
+				D0DB1680979D7D337950C73E14CBDFD2 /* NSMutableAttributedString+WTool.h in Headers */,
+				96D8906EBEF78867B479BF42E7EDAE29 /* NSNull+WTool.h in Headers */,
+				F7697CAD22709542652E893EB4B6838E /* NSString+WTool.h in Headers */,
+				65BE04052F024482DE78527F71CA4352 /* UIActionSheet+WTool.h in Headers */,
+				844E0EEE87854779148D948457873379 /* UIAlertView+WTool.h in Headers */,
+				6DACDBBA8121FEE5ECC174ED8BB18BA7 /* UIButton+WTool.h in Headers */,
+				141FEE82B76ADB104006AEBDD4A7C334 /* UIColor+WTool.h in Headers */,
+				6184240E121D79B686EFB666A15B6C1B /* UIControl+WTool.h in Headers */,
+				A44F570DDB6EF35B206D624322F8BD3F /* UIImage+WTool.h in Headers */,
+				7AFFE3B415F270D271FD2EA87438F922 /* UIScrollView+WTool.h in Headers */,
+				54023CC8524B4F8A46384BEB8E773412 /* UITableView+WTool.h in Headers */,
+				10F5932D16A7F0FA336C0BDC4F272AB4 /* UITableViewCell+WTool.h in Headers */,
+				D8B0AA8EDCCA35CA0DA5A70110303C2A /* UIView+WTool.h in Headers */,
+				99B1719337FDE4CC6EF3C7F438EC3447 /* UIViewController+WTool.h in Headers */,
+				D14C5EB3C01F190BA68D6935BBC27BC2 /* WFileManager.h in Headers */,
+				FB7102FFE750AF9455E7E8ADDEC6823C /* WJsonTool.h in Headers */,
+				7621C4B35CEA640A55F07B2538E69BA6 /* WTools.h in Headers */,
+				DDE6F2A145E67C35DA4F182E653AAD42 /* WToolsKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DBD54E9BD97181AAB61D0CFB6A52E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03EE8822452D7A99CE74C167C5B7682 /* Pods-WToolsKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB3E0C69CD78D31FE49E10F0733F4A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC9155DCF04151FEBF91573751EF056 /* Pods-WToolsKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00B5EA4E8E586ECB78D69F5D7D545B7F /* Pods-WToolsKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C0CC35BE6E2D4E7A6FE8DC95AB3D37 /* Build configuration list for PBXNativeTarget "Pods-WToolsKit_Example" */;
+			buildPhases = (
+				C5BC4AAE0129EB20275D1A75CD677894 /* Sources */,
+				A2FE1D39459D183C3185DB7087CC8405 /* Frameworks */,
+				B2DBD54E9BD97181AAB61D0CFB6A52E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6FEBD8E6C8FA85FD00103FF35D8EEF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-WToolsKit_Example";
+			productName = "Pods-WToolsKit_Example";
+			productReference = 631AC205656D928C24B91F30DA273FB3 /* Pods_WToolsKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6243726C606DE2B4A226548D3B6ABE4A /* WToolsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB605471E703C95FA951AC172CB435C /* Build configuration list for PBXNativeTarget "WToolsKit" */;
+			buildPhases = (
+				0CF6B08AF8FC80FFDF7B9776D238B35C /* Sources */,
+				4EFEF932DC57D3F69D684E9C34D5EE43 /* Frameworks */,
+				50328BF42C149701717475D0751CBE63 /* Resources */,
+				1F7ADA9B0C3E744C8D3AAA431032840F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A36467519018CF854EB0404BE68CDBB5 /* PBXTargetDependency */,
+			);
+			name = WToolsKit;
+			productName = WToolsKit;
+			productReference = 00E8377327ABF1DDBD7DE7BA93D2B4C2 /* WToolsKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		812267C80C4A21DE894C7DCCB1DDA64A /* WToolsKit-WToolsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29593217F290E7A972132D77B08CD52 /* Build configuration list for PBXNativeTarget "WToolsKit-WToolsKit" */;
+			buildPhases = (
+				7041B6650000FE430F57B3EC49033ED2 /* Sources */,
+				C5CD84F305981A98F8ACE7E87B5DD65C /* Frameworks */,
+				25564CCA1750EC85A17C46665217C152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WToolsKit-WToolsKit";
+			productName = "WToolsKit-WToolsKit";
+			productReference = 95459ADF444172C990C3323EE63D8E40 /* WToolsKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C63B0F5C672FB9023690FABD5DC755D8 /* Pods-WToolsKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0837F2B84DE930EB8D1065E99008CF /* Build configuration list for PBXNativeTarget "Pods-WToolsKit_Tests" */;
+			buildPhases = (
+				72EED375DB7E14DD688FE4866FF419B3 /* Sources */,
+				63082CEC5137180C13935344D1E89FB9 /* Frameworks */,
+				DEB3E0C69CD78D31FE49E10F0733F4A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBFA5A7DD13644637A720D5A8DE055F /* PBXTargetDependency */,
+			);
+			name = "Pods-WToolsKit_Tests";
+			productName = "Pods-WToolsKit_Tests";
+			productReference = 75CE0C0F829B6F47504ACE6D36E48FA3 /* Pods_WToolsKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F89EA6B8E4BB6E0B0124420690500683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B5EA4E8E586ECB78D69F5D7D545B7F /* Pods-WToolsKit_Example */,
+				C63B0F5C672FB9023690FABD5DC755D8 /* Pods-WToolsKit_Tests */,
+				6243726C606DE2B4A226548D3B6ABE4A /* WToolsKit */,
+				812267C80C4A21DE894C7DCCB1DDA64A /* WToolsKit-WToolsKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25564CCA1750EC85A17C46665217C152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50328BF42C149701717475D0751CBE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48939E6960E22487BE913CA2F1502F54 /* WToolsKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CF6B08AF8FC80FFDF7B9776D238B35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93FF4D820E0B28848ADCA9E0838F476 /* JWTools.m in Sources */,
+				725FCDDC5F5D4951FDF4F03234A7ED35 /* NSArray+WTool.m in Sources */,
+				4ECBB96DDC28DFEF5E66751CC7535ADB /* NSDate+WTool.m in Sources */,
+				A4D5F9584E1B291260E1FEDAEA685F67 /* NSMutableAttributedString+WTool.m in Sources */,
+				35E65CD04B00C9C44A4CA98956C4552A /* NSNull+WTool.m in Sources */,
+				13446D2D0DD4F0A5EB3DCFFAF2136BB7 /* NSString+WTool.m in Sources */,
+				3F82704AFFC52F3782FA6393007C0712 /* UIActionSheet+WTool.m in Sources */,
+				6429FCD1577EFDCF62191B2BA06C5825 /* UIAlertView+WTool.m in Sources */,
+				9BBD4218E251F33E396166F20FD1A348 /* UIButton+WTool.m in Sources */,
+				BE74DC5961FCC70F84AB004F00C44D55 /* UIColor+WTool.m in Sources */,
+				457357B30CC06BD51991CF1110B313BB /* UIControl+WTool.m in Sources */,
+				02353F4424EE49E274F7D01F152BDD17 /* UIImage+WTool.m in Sources */,
+				03B15E637A1051E4D1D274E7979329DF /* UIScrollView+WTool.m in Sources */,
+				69D72319C62021A9FCDA871D95D5A275 /* UITableView+WTool.m in Sources */,
+				E2BE6F6E95C507609B8B549252CAC8DD /* UITableViewCell+WTool.m in Sources */,
+				D6321A66C6327FEA91EB075744308504 /* UIView+WTool.m in Sources */,
+				FB19BFE64EB5BD20FC93A1423343777C /* UIViewController+WTool.m in Sources */,
+				E05EFECFDECAEB227641C8D0F9D723CA /* WFileManager.m in Sources */,
+				10A3352D28774F4BA4409905897F496E /* WJsonTool.m in Sources */,
+				CE0D8ED9BD1A07DEB22397CD4EE17EFE /* WToolsKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041B6650000FE430F57B3EC49033ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EED375DB7E14DD688FE4866FF419B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575DC50AEF9C78D304382A3696DB10E8 /* Pods-WToolsKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BC4AAE0129EB20275D1A75CD677894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DB449A17E0EED5BC14DC7C4A1D4BF0 /* Pods-WToolsKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A36467519018CF854EB0404BE68CDBB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WToolsKit-WToolsKit";
+			target = 812267C80C4A21DE894C7DCCB1DDA64A /* WToolsKit-WToolsKit */;
+			targetProxy = E9156A7223A045D46CF94E764A9FF2FC /* PBXContainerItemProxy */;
+		};
+		C6FEBD8E6C8FA85FD00103FF35D8EEF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WToolsKit;
+			target = 6243726C606DE2B4A226548D3B6ABE4A /* WToolsKit */;
+			targetProxy = E54BA296097DBD4990F91DE57C30D898 /* PBXContainerItemProxy */;
+		};
+		ECBFA5A7DD13644637A720D5A8DE055F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WToolsKit;
+			target = 6243726C606DE2B4A226548D3B6ABE4A /* WToolsKit */;
+			targetProxy = 089F752D77EB8BEA23081B29D6D604F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D0C9E9FF0F216FD048FC1AC8D738F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6F20C6FF1F2F0EB1FF3BCE7C7581B2 /* WToolsKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WToolsKit/WToolsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WToolsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WToolsKit/WToolsKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WToolsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2121E476BBF0518FF17D6B5641577511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6F20C6FF1F2F0EB1FF3BCE7C7581B2 /* WToolsKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WToolsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		35EC3F77AFBB60FE2383FD2D95ECFC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66154717A27CE6DF1B396A14B1C648E0 /* Pods-WToolsKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WToolsKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WToolsKit_Example/Pods-WToolsKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WToolsKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FC8937B2278EB5381197D11AD8F2FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0100E5024FE3C3543BD7D6962213AA31 /* Pods-WToolsKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WToolsKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WToolsKit_Tests/Pods-WToolsKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WToolsKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B21968E637F45C5734235F217A9EBC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6F20C6FF1F2F0EB1FF3BCE7C7581B2 /* WToolsKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WToolsKit/WToolsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WToolsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WToolsKit/WToolsKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WToolsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E62A6162E47833B26917E0899DF33567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01954E2176B8E83A6C633845E36BF9C /* Pods-WToolsKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WToolsKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WToolsKit_Example/Pods-WToolsKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WToolsKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F54D2153D1970C74C6A1B7AE0BFE5F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6F20C6FF1F2F0EB1FF3BCE7C7581B2 /* WToolsKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WToolsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FA4DA176947BEA7588D3BF8CCBC8EB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0F45C0813E86AB184F2DC90C29F09B /* Pods-WToolsKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WToolsKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WToolsKit_Tests/Pods-WToolsKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WToolsKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0837F2B84DE930EB8D1065E99008CF /* Build configuration list for PBXNativeTarget "Pods-WToolsKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC8937B2278EB5381197D11AD8F2FB9 /* Debug */,
+				FA4DA176947BEA7588D3BF8CCBC8EB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB605471E703C95FA951AC172CB435C /* Build configuration list for PBXNativeTarget "WToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0C9E9FF0F216FD048FC1AC8D738F7A /* Debug */,
+				B21968E637F45C5734235F217A9EBC0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C0CC35BE6E2D4E7A6FE8DC95AB3D37 /* Build configuration list for PBXNativeTarget "Pods-WToolsKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62A6162E47833B26917E0899DF33567 /* Debug */,
+				35EC3F77AFBB60FE2383FD2D95ECFC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29593217F290E7A972132D77B08CD52 /* Build configuration list for PBXNativeTarget "WToolsKit-WToolsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2121E476BBF0518FF17D6B5641577511 /* Debug */,
+				F54D2153D1970C74C6A1B7AE0BFE5F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

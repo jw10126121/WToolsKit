@@ -1,0 +1,25 @@
+{
+  "name": "WToolsKit",
+  "version": "0.1.0",
+  "summary": "一些方便开发的类",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/WToolsKit",
+  "license": "MIT",
+  "authors": {
+    "linjiawei": "10126121@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/WToolsKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "WToolsKit/Classes/**/*",
+  "resource_bundles": {
+    "WToolsKit": [
+      "WToolsKit/Assets/*.png"
+    ]
+  }
+}

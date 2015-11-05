@@ -1,0 +1,14 @@
+PODS:
+  - WToolsKit (0.1.0)
+
+DEPENDENCIES:
+  - WToolsKit (from `../`)
+
+EXTERNAL SOURCES:
+  WToolsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WToolsKit: 1a8aa19a947c3d58c26ce6ae3b57ef23ada6f8d2
+
+COCOAPODS: 0.39.0
