@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'WToolsKit_Example', :exclusive => true do
+  pod "WToolsKit", :path => "../"
+end
+
+target 'WToolsKit_Tests', :exclusive => true do
+  pod "WToolsKit", :path => "../"
+
+  
+end
